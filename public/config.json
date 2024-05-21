@@ -1,0 +1,23 @@
+{
+    "$schema": "https://next-box.ru/static/schemes/extension.json",
+
+    "version": "1.0.0",
+    "uniq_key": "react-app",
+
+    "name": {
+        "ru": "3D viewer"
+    },
+
+    "description": {
+        "ru": "Просмотр 3d моделей .gltf, .obj итд"
+    },
+
+    "type": "file",
+    "icon": "icon.svg",
+
+    "file": {
+        "mode": "read",
+        "ext": [".gltf", ".dae", ".obj"],
+        "index": "index.html"
+    }
+}
